@@ -13,6 +13,7 @@ struct ArdaView: View {
             Color.green.ignoresSafeArea()
             HStack {
                 Text(" ArdaView ")
+                Circle().fill(Color.gray).frame(width: 100, height: 100, alignment: .center)
             }
         }
     }
