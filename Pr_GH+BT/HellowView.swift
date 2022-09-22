@@ -10,7 +10,14 @@ import SwiftUI
 struct HellowView: View {
     var body: some View {
         ZStack {
-            Text("HellowView")
+            ZStack {
+                Text("HellowView")
+                    .padding(.horizontal,50)
+                    .foregroundColor(Color.red)
+                
+                    .background(Color.yellow)
+                    
+            }
         }
     }
 }
