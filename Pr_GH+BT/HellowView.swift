@@ -20,9 +20,7 @@ struct HellowView: View {
                         .onTapGesture{
                             onButton.toggle()
                         }
-                        
                 }
-                    
             }
         }
     }
