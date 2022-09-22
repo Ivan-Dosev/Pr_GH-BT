@@ -11,8 +11,14 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Color.yellow.opacity(0.3).ignoresSafeArea()
-            Text("Hello, world!")
-                .padding()
+            VStack{
+                Image(systemName: "xmark")
+                    .resizable()
+                    .frame(width: 50, height: 50, alignment:.center)
+                Text("Hello, world!")
+                    .padding()
+            }
+
         }
     }
 }
