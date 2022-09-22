@@ -15,6 +15,7 @@
 		6E154E5028DC04F600D3C43C /* Pr_GH_BTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E154E4F28DC04F600D3C43C /* Pr_GH_BTUITests.swift */; };
 		6E154E5228DC04F600D3C43C /* Pr_GH_BTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E154E5128DC04F600D3C43C /* Pr_GH_BTUITestsLaunchTests.swift */; };
 		6E154E5F28DC147000D3C43C /* ArdaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E154E5E28DC147000D3C43C /* ArdaView.swift */; };
+		6E154E6128DC157000D3C43C /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E154E6028DC157000D3C43C /* PickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		6E154E4F28DC04F600D3C43C /* Pr_GH_BTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pr_GH_BTUITests.swift; sourceTree = "<group>"; };
 		6E154E5128DC04F600D3C43C /* Pr_GH_BTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pr_GH_BTUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6E154E5E28DC147000D3C43C /* ArdaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArdaView.swift; sourceTree = "<group>"; };
+		6E154E6028DC157000D3C43C /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				6E154E3428DC04F500D3C43C /* Pr_GH_BTApp.swift */,
 				6E154E3628DC04F500D3C43C /* ContentView.swift */,
 				6E154E5E28DC147000D3C43C /* ArdaView.swift */,
+				6E154E6028DC157000D3C43C /* PickerView.swift */,
 				6E154E3828DC04F600D3C43C /* Assets.xcassets */,
 				6E154E3A28DC04F600D3C43C /* Preview Content */,
 			);
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E154E6128DC157000D3C43C /* PickerView.swift in Sources */,
 				6E154E3728DC04F500D3C43C /* ContentView.swift in Sources */,
 				6E154E3528DC04F500D3C43C /* Pr_GH_BTApp.swift in Sources */,
 				6E154E5F28DC147000D3C43C /* ArdaView.swift in Sources */,
