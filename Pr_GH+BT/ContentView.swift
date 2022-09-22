@@ -21,6 +21,12 @@ struct ContentView: View {
                     Text("arda")
                     Text("varda")
                 }
+                HStack{
+                    Image(systemName: "circle")
+                    //square.and.arrow.up  square.and.arrow.up.on.square
+                    Image(systemName: "square.and.arrow.up")
+                    Image(systemName: "square.and.arrow.up.on.square")
+                }
             }
 
         }
