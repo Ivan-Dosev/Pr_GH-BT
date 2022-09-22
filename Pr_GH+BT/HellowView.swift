@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct HellowView: View {
+    
+    @State var onButton : Bool = false
+    
     var body: some View {
         ZStack {
             ZStack {
-                Text("HellowView")
-                    .padding(.horizontal,50)
-                    .foregroundColor(Color.red)
-                
-                    .background(Color.yellow)
+                Color.gray.opacity(0.5)
+                VStack{
+                    Circle().fill(Color.red).border(Color.yellow, width:  onButton ? 0 : 50).frame(width: 200, height: 200)
+                        .onTapGesture{
+                            onButton.toggle()
+                        }
+                        
+                }
                     
             }
         }
