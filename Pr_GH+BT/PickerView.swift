@@ -10,8 +10,13 @@ import SwiftUI
 struct PickerView: View {
     var body: some View {
         ZStack {
+            Color.gray.ignoresSafeArea()
             HStack {
-                
+                VStack{
+                    Text("Ha")
+                    Text("Da")
+                    Text("La")
+                }
                 Text("PickerView")
             }
         }
