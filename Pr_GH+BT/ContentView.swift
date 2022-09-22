@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Color.yellow.opacity(0.3).ignoresSafeArea()
+            Text("Hello, world!")
+                .padding()
+        }
     }
 }
 
