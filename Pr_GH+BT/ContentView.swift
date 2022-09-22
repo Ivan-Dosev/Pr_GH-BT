@@ -17,6 +17,10 @@ struct ContentView: View {
                     .frame(width: 50, height: 50, alignment:.center)
                 Text("Hello, world!")
                     .padding()
+                HStack{
+                    Text("arda")
+                    Text("varda")
+                }
             }
 
         }
